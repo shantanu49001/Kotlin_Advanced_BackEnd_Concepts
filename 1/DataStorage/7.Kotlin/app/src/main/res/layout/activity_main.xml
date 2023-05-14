@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/show_text"
+        android:layout_width="277dp"
+        android:layout_height="67dp"
+        android:text="Your Content Will show here [private]"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <Button
+        android:id="@+id/button_read_private"
+        android:layout_width="214dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="48dp"
+        android:text="READ External private"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_text" />
+
+    <Button
+        android:id="@+id/button_create_private"
+        android:layout_width="213dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="48dp"
+        android:text="CREATE PRIVATE FILE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_read_private" />
+
+    <EditText
+        android:id="@+id/ET"
+        android:layout_width="318dp"
+        android:layout_height="88dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SHOW_TXT_Public"
+        android:layout_width="287dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="52dp"
+        android:text="Public File Data"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ET" />
+
+    <Button
+        android:id="@+id/button_CR_PUB_FILE"
+        android:layout_width="239dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="36dp"
+        android:text="CREATE PUBLIC FILE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SHOW_TXT_Public" />
+
+    <Button
+        android:id="@+id/button_READ_PUBLIC"
+        android:layout_width="217dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="20dp"
+        android:text="Read Public file"
+        app:layout_constraintBottom_toTopOf="@+id/show_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

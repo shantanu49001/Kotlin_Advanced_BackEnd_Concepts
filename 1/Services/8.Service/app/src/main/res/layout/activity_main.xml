@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="242dp"
+        android:layout_height="68dp"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <Button
+        android:id="@+id/buttonselectime"
+        android:layout_width="233dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="68dp"
+        android:text="Select time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_time" />
+
+    <Button
+        android:id="@+id/buttonsetalarm"
+        android:layout_width="203dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="84dp"
+        android:text="Set Alrm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonselectime" />
+
+    <Button
+        android:id="@+id/Cancelalarm"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:text="Cancel Alarm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonsetalarm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

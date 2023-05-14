@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Service Example</string>
+    <string name="stop_playing">Stop Playing</string>
+    <string name="play_alarm">Play Alarm</string>
+    <string name="play_ringtone">Play RingTone</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="my_service_running">My Service Running</string>
+</resources>

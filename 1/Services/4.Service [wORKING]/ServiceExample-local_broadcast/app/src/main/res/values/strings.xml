@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Service Example</string>
+    <string name="stop_playing">Stop Playing</string>
+    <string name="play_alarm">Play Alarm</string>
+    <string name="play_ringtone">Play RingTone</string>
+    <string name="stop_service">Stop Service</string>
+
+    <string name="play_status_text_default">The play status is: Unknown</string>
+    <string name="play_status_text">The play status is: %1$s</string>
+</resources>

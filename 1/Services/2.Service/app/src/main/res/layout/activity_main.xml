@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="148dp"
+        android:text="Play_service"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonpause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="64dp"
+        android:text="Pause service"
+        app:layout_constraintStart_toStartOf="@+id/button_play"
+        app:layout_constraintTop_toBottomOf="@+id/button_play" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Stop service"
+        app:layout_constraintStart_toStartOf="@+id/buttonpause"
+        app:layout_constraintTop_toBottomOf="@+id/buttonpause" />
+
+    <Button
+        android:id="@+id/button_alram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:text="PlayAlrm"
+        app:layout_constraintStart_toStartOf="@+id/button_stop"
+        app:layout_constraintTop_toBottomOf="@+id/button_stop" />
+</androidx.constraintlayout.widget.ConstraintLayout>
